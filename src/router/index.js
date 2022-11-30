@@ -85,6 +85,18 @@ export const constantRoutes = [
         name: 'Step',
         component: () => import('@/views/step/index'),
         meta: { title: 'step', icon: 'tree' }
+      },
+      {
+        path: 'map',
+        name: 'Map',
+        component: () => import('@/views/map/china'),
+        meta: { title: 'map', icon: 'tree' }
+      },
+      {
+        path: 'animate',
+        name: 'animate',
+        component: () => import('@/views/animate'),
+        meta: { title: 'animate', icon: 'tree' }
       }
     ]
   },
